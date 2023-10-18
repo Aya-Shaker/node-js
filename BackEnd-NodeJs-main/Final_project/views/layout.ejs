@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses App</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color:rgb(224, 198, 243);"></body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <div class="container" style="background-color:rgb(224, 198, 243);">
+      <a class="navbar-brand" href="/">Courses APP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="/events">Courses</a>
+          <a class="nav-link" href="/create">Add Course</a>
+          <a class="nav-link" href="/contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <%- body %>
+  </main>
+
+
+  
+  <script src="/node_modules/@popperjs/core/dist/umd/popper.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
